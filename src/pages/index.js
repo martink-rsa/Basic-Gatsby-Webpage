@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import '../Styles/index.css';
+import '../Styles/index.scss';
 
 import Layout from '../Components/Layout/Layout';
 
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>Hello world!</h1>
-      <h2>My first Gatsby page</h2>
+      <h1>Hello.</h1>
+      <h2>
+        I'm a basic webpage made using Gatsby, a React-based static site
+        generator.
+      </h2>
       <p>
-        Contact me at <Link to="/contact">this page.</Link>
-      </p>
-      <p>
-        My about page is available <Link to="/about">here.</Link>
+        Contact me? Visit <Link to="/contact">this page.</Link>
       </p>
     </Layout>
   );
