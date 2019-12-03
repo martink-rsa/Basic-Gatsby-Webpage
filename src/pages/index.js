@@ -9,7 +9,7 @@ const IndexPage = () => {
     <Layout>
       <h1>Hello.</h1>
       <h2>
-        I'm a basic webpage made using Gatsby, a React-based static site
+        I&apos;m a basic webpage made using Gatsby, a React-based static site
         generator.
       </h2>
       <p>
