@@ -9,6 +9,16 @@ module.exports = {
     title: 'Basic Gatsby Website',
     author: 'Website Author',
   },
-  plugins: ['gatsby-plugin-sass'],
+  plugins: [
+    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`,
+      },
+    },
+    'gatsby-transformer-remark',
+  ],
   /* Your site config here */
 };
