@@ -4,13 +4,6 @@ import { Link, graphql, useStaticQuery } from 'gatsby';
 import Layout from '../Components/Layout/Layout';
 import blogStyles from '../pages/blog.module.scss';
 
-//
-// Goal: Link to the blog posts
-//
-// 1. Fetch the slug for posts
-// 2. Use slug to generate a link to the post page
-// 3. Test your work!
-
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
     query {
