@@ -5,6 +5,8 @@ date: '2019-12-03'
 
 First basic blog post.
 
+![Post 1 Image](./img-1.jpeg)
+
 ## First Header with List
 
 1. Item 1
